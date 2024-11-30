@@ -80,7 +80,7 @@ This repository contains a sparkling animation effect built using **React** and 
     function App() {
         return (
             <div>
-                <Sparkles color="#FF4800">
+                <Sparkles>
                     <h1>Shiny Title</h1>
                 </Sparkles>
             </div>
