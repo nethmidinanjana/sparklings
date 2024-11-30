@@ -47,6 +47,10 @@ This repository contains a sparkling animation effect built using **React** and 
 
    # or
 
+   pnpm install
+
+   # or
+
    yarn install
 
    ```
@@ -56,6 +60,9 @@ This repository contains a sparkling animation effect built using **React** and 
    ```bash
 
     npm run dev
+
+   # or
+   
     pnpm dev
 
     # or
