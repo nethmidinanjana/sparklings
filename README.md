@@ -17,13 +17,15 @@ This repository contains a sparkling animation effect built using **React** and 
 
 ## 📂 Project Structure
 
-. ├── src
-│ ├── components
-│ │ └── Sparkles.tsx # Main Sparkles component
-│ └── hooks
-│ ├── usePrefersReducedMotion.ts # Hook to detect motion preference
-│ └── useRandomInterval.ts # Hook for random interval generation
-└── README.md
+    ```bash
+    . ├── src
+    │ ├── components
+    │ │ └── Sparkles.tsx # Main Sparkles component
+    │ └── hooks
+    │ ├── usePrefersReducedMotion.ts # Hook to detect motion preference
+    │ └── useRandomInterval.ts # Hook for random interval generation
+    └── README.md
+    ```
 
 ## 📝 Usage
 
@@ -53,12 +55,12 @@ This repository contains a sparkling animation effect built using **React** and 
 
    ```bash
 
-       npm run dev
-       pnpm dev
+    npm run dev
+    pnpm dev
 
-       # or
+    # or
 
-       yarn dev
+    yarn dev
 
    ```
 
@@ -66,19 +68,19 @@ This repository contains a sparkling animation effect built using **React** and 
 
    ```bash
 
-       import Sparkles from './path/to/Sparkles';
+    import Sparkles from './path/to/Sparkles';
 
-       function App() {
-       return (
-       <div>
-       <Sparkles color="#FF4800">
-       <h1>Shiny Title</h1>
-       </Sparkles>
-       </div>
-       );
-       }
+    function App() {
+        return (
+            <div>
+                <Sparkles color="#FF4800">
+                    <h1>Shiny Title</h1>
+                </Sparkles>
+            </div>
+        );
+    }
 
-       export default App;
+    export default App;
 
    ```
 
