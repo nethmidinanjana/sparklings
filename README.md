@@ -17,7 +17,7 @@ This repository contains a sparkling animation effect built using **React** and 
 
 ## 📂 Project Structure
 
-    ```bash
+    
     . ├── src
     │ ├── components
     │ │ └── Sparkles.tsx # Main Sparkles component
@@ -25,7 +25,7 @@ This repository contains a sparkling animation effect built using **React** and 
     │ ├── usePrefersReducedMotion.ts # Hook to detect motion preference
     │ └── useRandomInterval.ts # Hook for random interval generation
     └── README.md
-    ```
+    
 
 ## 📝 Usage
 
