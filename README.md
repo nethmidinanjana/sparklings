@@ -84,8 +84,10 @@ This repository contains a sparkling animation effect built using **React** and 
 
    ```
 
-🎨 Customization
+
+## 🎨 Customization
 Color: Pass a custom color to the Sparkles component via the color prop.
 Number of Sparkles: Adjust the number of initial sparkles by modifying the range parameter in the Sparkles.tsx file.
-📖 Credits
-This animation is based on the tutorial by Josh W. Comeau with personal modifications for enhanced flexibility and usability.
+
+## 📖 Credits
+This animation is based on the tutorial by Josh W. Comeau.
