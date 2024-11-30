@@ -17,53 +17,71 @@ This repository contains a sparkling animation effect built using **React** and 
 
 ## 📂 Project Structure
 
-. ├── src │ ├── components │ │ └── Sparkles.tsx # Main Sparkles component │ └── hooks │ ├── usePrefersReducedMotion.ts # Hook to detect motion preference │ └── useRandomInterval.ts # Hook for random interval generation └── README.md
-
-bash
-Copy code
+. ├── src
+│ ├── components
+│ │ └── Sparkles.tsx # Main Sparkles component
+│ └── hooks
+│ ├── usePrefersReducedMotion.ts # Hook to detect motion preference
+│ └── useRandomInterval.ts # Hook for random interval generation
+└── README.md
 
 ## 📝 Usage
 
 1. **Clone the Repository:**
+
    ```bash
    git clone https://github.com/yourusername/sparkling-animation.git
    cd sparkling-animation
-   Install Dependencies:
+
    ```
 
-bash
-Copy code
-npm install
+   ## 🚀 Getting Started
 
-# or
+2. **Clone the Repository:**
 
-yarn install
-Run the Project:
+   ```bash
 
-bash
-Copy code
-npm run dev
+   npm install
 
-# or
+   # or
 
-yarn dev
-Import and Use the Sparkles Component:
+   yarn install
 
-tsx
-Copy code
-import Sparkles from './path/to/Sparkles';
+   ```
 
-function App() {
-return (
-<div>
-<Sparkles color="#FF4800">
-<h1>Shiny Title</h1>
-</Sparkles>
-</div>
-);
-}
+3. **Run the Project:**
 
-export default App;
+   ```bash
+
+       npm run dev
+       pnpm dev
+
+       # or
+
+       yarn dev
+
+   ```
+
+4. **Import and Use the Sparkles Component:**
+
+   ```bash
+
+       import Sparkles from './path/to/Sparkles';
+
+       function App() {
+       return (
+       <div>
+       <Sparkles color="#FF4800">
+       <h1>Shiny Title</h1>
+       </Sparkles>
+       </div>
+       );
+       }
+
+       export default App;
+
+   ```
+
 🎨 Customization
 Color: Pass a custom color to the Sparkles component via the color prop.
 Number of Sparkles: Adjust the number of initial sparkles by modifying the range parameter in the Sparkles.tsx file.
