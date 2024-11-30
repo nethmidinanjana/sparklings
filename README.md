@@ -1,6 +1,6 @@
 # ✨ Sparkling Animation with React & Styled-Components
 
-This repository contains a sparkling animation effect built using **React** and **styled-components**. The animation dynamically generates sparkles that appear and disappear with a smooth scaling and spinning effect, tought by the tutorial from [Josh W. Comeau](https://www.joshwcomeau.com/).
+This repository features a dazzling sparkling animation effect built with **React** and **styled-components**. The animation generates sparkles that smoothly scale and spin, creating a captivating visual experience, inspired by the tutorial from [Josh W. Comeau](https://www.joshwcomeau.com/). I've made it TypeScript-friendly, ensuring a smooth and type-safe development experience!
 
 ## 🚀 Features
 
